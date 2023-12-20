@@ -47,7 +47,7 @@ if not exist "%localRepoPath%" (
         exit /b 1
     )
 ) else (
-    echo Directory already exists.
+    echo Repository Directory already exists.
 )
 
 :: Clone or pull the repository
@@ -61,9 +61,10 @@ if exist "%localRepoPath%\thesiscrafter-frontend" (
     git clone "%githubRepoUrl%"
 )
 
-:: run the add-in and enable sideloading
-echo Running npm start...
+:: install node packages, run the add-in and enable sideloading
+echo Running npm install and start...
 cd "%localRepoPath%\thesiscrafter-frontend"
-call npm run start
+call npm install
+echo "n" | call npm run start
 
 pause
