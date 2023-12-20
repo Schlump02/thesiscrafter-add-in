@@ -1,6 +1,6 @@
 @echo off
 
-set "githubRepoUrl=https://github.com/Schlump02/thesiscrafter-frontend.git"
+set "githubRepoUrl=https://github.com/Schlump02/thesiscrafter-add-in.git"
 set "localRepoPath=%APPDATA%\thesiscrafter"
 
 :: Check if Git is installed
@@ -51,9 +51,9 @@ if not exist "%localRepoPath%" (
 )
 
 :: Clone or pull the repository
-if exist "%localRepoPath%\thesiscrafter-frontend" (
+if exist "%localRepoPath%\thesiscrafter-add-in" (
     echo Repository exists. Pulling changes...
-    cd "%localRepoPath%\thesiscrafter-frontend"
+    cd "%localRepoPath%\thesiscrafter-add-in"
     git pull
 ) else (
     echo Cloning repository...
@@ -63,7 +63,7 @@ if exist "%localRepoPath%\thesiscrafter-frontend" (
 
 :: install node packages, run the add-in and enable sideloading
 echo Running npm install and start...
-cd "%localRepoPath%\thesiscrafter-frontend"
+cd "%localRepoPath%\thesiscrafter-add-in"
 call npm install
 echo "n" | call npm run start
 
