@@ -8,7 +8,7 @@
   <Description DefaultValue="Craft your thesis like a pro!"/>
   <IconUrl DefaultValue="https://localhost:3210/assets/robert-robot-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3210/assets/robert-robot-64.png"/>
-  <SupportUrl DefaultValue="https://jona.codes"/>
+  <SupportUrl DefaultValue="https://barm.jona.codes"/>
   <AppDomains>
     <AppDomain>https://jona.codes</AppDomain>
   </AppDomains>
