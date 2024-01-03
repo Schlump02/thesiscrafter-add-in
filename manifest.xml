@@ -16,7 +16,7 @@
     <Host Name="Document"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://jona.codes"/>
+    <SourceLocation DefaultValue="https://thesis-crafter.jona.codes"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -67,9 +67,9 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3210/assets/robert-robot-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://jona.codes"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3210/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://jona.codes"/>
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://barm.jona.codes"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://thesis-crafter.jona.codes/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://thesis-crafter.jona.codes"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="ThesisCrafter ist jetzt verfügbar!"/>
